@@ -1,0 +1,30 @@
+/* slider style start here*/
+.carousel-inner{
+    height: 500px;    
+}
+/* slider style end here*/
+/*navbar style start here*/
+.navbar{
+    background-color: black;
+    position: relative;    
+}
+/* navbar style end here*/
+.dropdown-menu a{
+ color: black;
+}
+/* dropdown menu start here*/
+#form-section{
+    background-color: whitesmoke;    
+}
+/* dropdown menu end here*/
+/* map style start here*/
+#map{
+   height: 300px;
+   width: 100%; 
+}
+/* map style end here*/
+/* card style start here*/
+.card{
+    box-shadow: 10px 10px 20px black;
+}
+/* card style end here*/

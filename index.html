@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codekaro</title>
+    <!--css file link-->
+    <link rel="stylesheet" href="style.css">
+    <!--font awsome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!--bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <!--navbar start here-->
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand text-info" href="#">CODE-KARO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item  ">
+                        <a class="nav-link active " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Client</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item " href="#">APP DEVOLOPMENT</a></li>
+                            <li><a class="dropdown-item " href="#">WEB DEVOLOPMENT</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">IOS DEVOLOPMENT</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--navbar end here-->
+    <!--carousel start here-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1" class="text-dark"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="d-block w-100 img-fluid" alt="slide-1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="d-block w-100  img-fluid" alt="slide-2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/4889278/pexels-photo-4889278.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="d-block w-100 img-fluid" alt="slide-3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--slider end here-->
+    <!--cards section start here-->
+    <!--tagline-->
+    <div class="container-fluid">
+        <div class="row pt-4">
+            <div class="col-12  display-6  mb-3 text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Neque iusto suscipit doloremque quas.
+            </div>
+        </div>
+        <div class="row justify-content-evenly">
+            <div class="col-md-3 text-center">
+                <h1 class="text-info "><i class="fa-sharp fa-solid fa-code"></i></h1>
+                <h5>built for passionate devolopers</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique ducimus!</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <h1 class="text-success"><i class="fa-sharp fa-solid fa-calendar-minus"></i></h1>
+                <h5>built for passionate devolopers</h5>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptas</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <h1 class="text-primary"><i class="fa-solid fa-gears"></i></h1>
+                <h5>built for passionate devolopers</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, facilis.</p>
+            </div>
+        </div>
+        <!--card section end here-->
+        <hr>
+        <!--growth section start here-->
+        <div class="row justify-content-evenly">
+            <div class="col-md-5 pt-5 pb-3">
+                <img src="https://img.freepik.com/premium-photo/blue-growth-graph-business-chart-data-diagram-success-financial-presentation-background-with-abstract-up-arrow-bar-symbol-finance-marketing-price-statistic-economy-market-profit-investment_79161-2364.jpg?size=626&ext=jpg&ga=GA1.2.519349570.1678084561&semt=ais"
+                    class="img-fluid rounded" alt="growth image">
+            </div>
+            <div class="col-md-5 pt-4 pb-3 ">
+                <h5 class=" text-center pt-3 pb2">WEB DEVOLOPMENT</h5>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 90%"></div>
+                </div>
+                <h5 class=" text-center pt-3 pb-2">APP DEVOLOPMENT</h5>
+                <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <div class="progress-bar bg-info" style="width: 60%"></div>
+                </div>
+                <h5 class=" text-center pt-3 pb-2">IOS DEVOLOPMENT</h5>
+                <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-warning" style="width: 70%"></div>
+                </div>
+                <h5 class=" text-center pt-3 pb-2">SEO</h5>
+                <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-danger" style="width: 70%"></div>
+                </div>
+                <h5 class=" text-center pt-3 pb-2"> DIGITAL MARKETING</h5>
+                <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-info" style="width: 75%"></div>
+                </div>
+            </div>
+        </div>       
+       <hr>
+    </div>
+    </div>
+    <!--growth section end here-->
+    <!--team section start here-->
+    <div class="row justify-content-evenly pt-5 pb-2">
+        <h3 class="text-center ">OUR TEAM</h3>
+        <div class="col-md-3  pt-3 pb-3 ">
+            <div class="card" style="width: 15rem;">
+                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    height="300px"  class="card-img-top " alt="instructor">
+                    <h6 class="text-center pt-2">HARRY BROOK</h6>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 pt-3 pb-3 ">
+            <div class="card " style="width: 15rem;">
+                <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    height="300px" class="card-img-top " alt="instructor">
+                    <h6 class="text-center pt-2">DAVID MALAN</h6>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 pt-3 pb-3 ">
+            <div class="card" style="width: 15rem;">
+                <img src="https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    height="300px"  class="card-img-top " alt="instructor">
+                    <h6 class="text-center pt-2"> MARKO JANSEN </h6>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!--team section end here-->
+    <!--form section start here-->
+    <div class="row mt-4 pt-2 pb-2 justify-content-evenly" id="form-section">
+
+        <div class="col-md-5 mt-5">
+            <h3 class="text-center">Contact Form</h3>
+            <div class="mb-3">
+                <label for="NAME" class="form-label">Name</label>
+                <input type="text" class="form-control" id="NAME" placeholder="Type Your Name">
+            </div>
+            <div class="mb-3">
+                <label for="number" class="form-label">Contact no</label>
+                <input type="number" class="form-control" id="number" placeholder="Enter Your Contact Details">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Ask Your Querry</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-md-5 mt-5">
+            <h3 class="text-center">Adress</h3>
+            <p class="text-center">Street No 123, New York Washington</p>
+            <h5 class="text-center"><i class="fa-sharp fa-solid fa-phone"></i>+0123 456 789</h5>
+            <iframe id="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.279909073!2d-74.25987368715491!3d40.69767006458873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1678087854945!5m2!1sen!2sin"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <!--form section end here-->
+    <!--faq section start here-->
+    <div class="row justify-content-evenly pt-5 pb-4">
+        <div class="col-md-10">
+            <h3 class="text-center pb-3">FAQ</h3>
+            <div class="accordion accordion-flush border " id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            which will be the highest paying technollogy in 2023
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
+                            body.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            what is the future of web devolopment
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+                            body. Let's imagine this being filled with some actual content.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            future of digital marketing
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!--faq section end here-->
+    <div class="row justify-content-evenly bg-dark text-white">
+        <div class="col-md-3  pt-4 pb-3">
+            <h4>CODE-KARO</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro temporibus sapiente quisquam repellat
+                voluptatum inventore id incidunt amet sint laudantium.</p>
+        </div>
+        <div class="col-md-3 pt-4 pb-3">
+            <h4>LINKS</h4>
+            <p>
+                <a href="#" class="link-light text-decoration-none">HOME</a> <br>
+                <a href="#" class="link-light text-decoration-none">ABOUT</a> <br>
+                <a href="#" class="link-light text-decoration-none">OUR TEAM</a> <br>
+                <a href="#" class="link-light text-decoration-none">SERVICES</a> <br>
+            </p>
+        </div>
+        <div class="col-md-3 pt-4 pb-3">
+            <h4>CONTACT US</h4>
+            <p >Street No 123, New York Washington</p>
+            <i class="fa-sharp fa-solid fa-phone"></i>+0123 456 789
+        </div>
+    </div    
+    <!--container end-->
+    </div>
+    <!--bundle.js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
