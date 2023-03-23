@@ -1,13 +1,23 @@
 /* slider style start here*/
-.carousel-inner{
-    height: 500px;    
+.carousel-caption{
+    position: absolute;
+    top: 50%;
 }
+.carousel-caption h1{
+    font-size: 5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.carousel-caption p{
+    font-size: 2vw;
+}
+
 /* slider style end here*/
 /*navbar style start here*/
 .navbar{
     background-color: black;
     position: relative;    
 }
+
 /* navbar style end here*/
 .dropdown-menu a{
  color: black;
@@ -24,7 +34,15 @@
 }
 /* map style end here*/
 /* card style start here*/
-.card{
-    box-shadow: 10px 10px 20px black;
+/* card style start here*/
+.team-member{
+    overflow: hidden;
 }
+.team-member img{
+ transition: all 1.5s ease;
+}
+.team-member:hover img{
+    transform: scale(1.5);
+}
+
 /* card style end here*/
